@@ -1,4 +1,4 @@
 const Card = ({ color }) => {
-  return <div className={`${color} w-20 h-20`}></div>;
+  return <div className={`bg-${color}-500 w-20 h-20`}></div>;
 };
 export default Card;
